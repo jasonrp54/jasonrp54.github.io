@@ -1,0 +1,191 @@
+{
+    "peliculas": [
+      {
+        "id": 1,
+        "nombre": "El sexto sentido",
+        "director": "M. Night Shyamalan",
+        "clasificacion": "Drama",
+        "imagen":"img/El_sexto_sentido.jpg",
+        "url":"https://www.youtube.com/embed/zfOdk9JDzSw"     
+      },
+      {
+        "id": 2,
+        "nombre": "Pulp Fiction",
+        "director": "Tarantino",
+        "clasificacion": "Accion",
+        "imagen":"img/resizer.jpg",
+        "url":"https://www.youtube.com/embed/s7EdQ4FqbhY"   
+      },
+      {
+        "id": 3,
+        "nombre": "Todo Sobre Mi Madre",
+        "director": "Almodobar",
+        "clasificacion": "Drama",
+        "imagen":"img/20089686.jpg",
+        "url":"https://www.youtube.com/embed/hcVEvcP1iAc"
+      },
+      {
+        "id": 4,
+        "nombre": "300",
+        "director": "Zack Snyder",
+        "clasificacion": "Accion",
+        "imagen":"img/300.jpg",
+        "url":"https://www.youtube.com/embed/UrIbxk7idYA"
+      },
+      {
+        "id": 5,
+        "nombre": "El silencio de los corderos",
+        "director": "Jonathan Demme",
+        "clasificacion": "Drama",
+        "imagen":"img/elsilencio.jpg",
+        "url":"https://www.youtube.com/embed/ecnGY7BP-A4"
+      },
+      {
+        "id": 6,
+        "nombre": "Forrest Gump",
+        "director": "Robert Zemeckis",
+        "clasificacion": "Comedia",
+        "imagen":"img/Forrest_Gump.jpg",
+        "url":"https://www.youtube.com/embed/bLvqoHBptjg"
+      },
+      {
+        "id": 7,
+        "nombre": "Mas allá de la fiesta",
+        "director": "Stephen Herek",
+        "clasificacion": "Comedia",
+        "imagen":"img/fiesta.jpg",
+        "url":"https://www.youtube.com/embed/vTLKeUnE7BE"
+      },
+      {
+        "id": 8,
+        "nombre": "Misión de rescate",
+        "director": "Sam Hargrave",
+        "clasificacion": "Accion",
+        "imagen":"img/tyler-rake-1587998419.jpg",
+        "url":"https://www.youtube.com/embed/18fMBzX5PdA"
+      },
+      {
+        "id": 9,
+        "nombre": "Ben y el dragón",
+        "director": "Tomer Eshed",
+        "clasificacion": "Documental",
+        "imagen":"img/dragon.jpg",
+        "url":"https://www.youtube.com/embed/2kfJRvKy-lc"
+      },
+      {
+        "id": 10,
+        "nombre": "Nosotros",
+        "director": "Jordan Peele",
+        "clasificacion": "Documental",
+        "imagen":"img/Nosotros-494435408-large.jpg",
+        "url":"https://www.youtube.com/embed/qJh9_0xH3mY"
+      },
+      {
+        "id": 11,
+        "nombre": "Las Hurdes",
+        "director": "Luis Buñuel",
+        "clasificacion": "Documental",
+        "imagen":"img/Las_Hurdes.jpg",
+        "url":"https://www.youtube.com/embed/LbtALS9zffM"
+      },
+      {
+        "id": 12,
+        "nombre": "Corre",
+        "director": "Aneesh Chaganty",
+        "clasificacion": "Documental",
+        "imagen":"img/Corre-907729704-large.jpg",
+        "url":"https://www.youtube.com/embed/e7szVe_XrcM"
+      },
+      {
+        "id": 13,
+        "nombre": "El es asi", 
+        "director": " Jennifer Gibgot",
+        "clasificacion": "Documental",
+        "imagen":"img/asi.jpg",
+        "url":"https://www.youtube.com/embed/ahaAOlCcmsU"
+      },
+      {
+        "id": 14,
+        "nombre": "Parásitos",
+        "director": "Bong Joon-ho",
+        "clasificacion": "Drama",
+        "imagen":"img/Parasite-406070218-large.jpg",
+        "url":"https://www.youtube.com/embed/Z7SiFLgoFQM"
+      },
+      {
+        "id": 15,
+        "nombre": "Worth",
+        "director": "Sara Colangelo",
+        "clasificacion": "Drama",
+        "imagen":"img/Worth-675973960-large.jpg",
+        "url":"https://www.youtube.com/embed/OOAemeB9CAw"
+      },
+      {
+        "id": 16,
+        "nombre": "365 días",
+        "director": "Barbara Bialowas",
+        "clasificacion": "Documental",
+        "imagen":"img/5096195.jpg",
+        "url":"https://www.youtube.com/embed/9O9yvX2s5X4"
+      },
+      {
+        "id": 17,
+        "nombre": "Mono",
+        "director": " Alejandro Landes",
+        "clasificacion": "Accion",
+        "imagen":"img/2973533.jpg",
+        "url":"https://www.youtube.com/embed/disclpVzoMQ"
+      },
+      {
+        "id": 18,
+        "nombre": "Vivo",
+        "director": "Kirk DeMicco",
+        "clasificacion": "Documental",
+        "imagen":"img/vivo.jpg",
+        "url":"https://www.youtube.com/embed/BOe8L69JpVI"
+      },
+      {
+        "id": 19,
+        "nombre": "El protector",
+        "director": "Robert Lorenz",
+        "clasificacion": "Accion",
+        "imagen":"img/917gRihNOtL._RI_.jpg",
+        "url":"https://www.youtube.com/embed/6JwgWtNfNFo"
+      },
+      {
+        "id": 20,
+        "nombre": "Sweet Girl",
+        "director": "Brian Andrew Mendoza",
+        "clasificacion": "Accion",
+        "imagen":"img/sweet-girl-2443719.jpg",
+        "url":"https://www.youtube.com/embed/wE7b0dC5vPg"
+      },
+      {
+        "id": 21,
+        "nombre": "El estornino",
+        "director": "Theodore Melfi",
+        "clasificacion": "Drama",
+        "imagen":"img/The-Starling.jpg",
+        "url":"https://www.youtube.com/embed/eUnY0ipAUHY"
+      }
+    ],
+    "clasificaciones": [
+      {
+        "nombre": "Drama",
+        "id": 1
+      },
+
+      {
+        "nombre": "Comedia",
+        "id": 2
+      },
+      {
+        "nombre": "Documental",
+        "id": 3
+      },
+      {
+        "nombre": "Accion",
+        "id": 4
+      }
+    ]
+  }

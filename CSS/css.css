@@ -1,0 +1,69 @@
+body{
+    margin: 10px 10px ;
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+ color: white;
+ font-family: cursive; 
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: cursive;
+}
+small{
+    color: white;
+    font-family: cursive;
+}
+
+#banner{
+    padding-bottom : 1em;    
+}
+
+iframe{
+    width: 900px; height: 506px; left: 0px; top: 0px;
+}
+
+#lResults {
+    list-style-type: disc;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+#lResults, li{
+    list-style: none;
+    padding: 5px;
+}
+
+#lResults > li:hover {
+    background: rgba(9,9,121,1) ;
+    /* background: rgb(0,212,255);
+    background: linear-gradient(0deg, rgba(0,212,255,1) 6%, rgba(9,9,121,1) 92%); */
+}
+
+#lResults li > a {
+    text-decoration: none;
+}
+
+/* #lResults li img{
+    display: block;
+    height: auto;
+    width: 100%;
+} */
+
+footer {
+    text-align: center;
+    padding: 3px;   
+    color: white;
+    background: rgb(0,212,255);
+    background: linear-gradient(0deg, rgba(0,212,255,1) 6%, rgba(9,9,121,1) 92%);
+    border-radius: 30px 5px 30px 5px;
+  }
+
