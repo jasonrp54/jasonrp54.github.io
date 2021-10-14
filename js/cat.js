@@ -13,9 +13,10 @@ $(function() {
                 let items = [];        
                 if (data.length > 0) {
                     $.each(data, function (index,p) {              
-                        items.push(`<li data-id='${p.id}'>
+                        items.push(`
+                        <div class="col-12 col-md-4 col-lg-3 forma" data-id='${p.id}'>
                         <a href="#">
-                        <img src='${p.imagen}' class="img-fluid" width="345" height="500"/>             
+                        <img src='${p.imagen}' class="img-fluid"/>             
                         <p>${p.nombre}
                         <br>
                         Director: ${p.director}
@@ -23,7 +24,7 @@ $(function() {
                         <small>${p.clasificacion}</small>
                         </p>
                         </a>                               
-                        </li>`);
+                        </div>`);
                     });
                     $(items.join()).appendTo('#lResults');
                     $("#lResults").slideDown(600);
@@ -48,9 +49,10 @@ $(function() {
                 let items = [];        
                 if (data.length > 0) {
                     $.each(data, function (index,p) {              
-                        items.push(`<li data-id='${p.id}'>
+                        items.push(`
+                        <div class="col-12 col-md-4 col-lg-3 forma" data-id='${p.id}'>
                         <a href="#" >
-                        <img src='${p.imagen}' width="345" height="500" alt=""/>             
+                        <img src='${p.imagen}'  class="img-fluid"/>             
                         <p>${p.nombre}
                         <br>
                         Director: ${p.director}
@@ -58,7 +60,7 @@ $(function() {
                         <small>${p.clasificacion}</small>
                         </p>
                         </a>                               
-                        </li>`);
+                        </div>`);
                     });
                     $(items.join()).appendTo('#lResults');
                     $("#lResults").slideDown(600);
@@ -83,9 +85,9 @@ $(function() {
                 let items = [];        
                 if (data.length > 0) {
                     $.each(data, function (index,p) {              
-                        items.push(`<li data-id='${p.id}'>
-                        <a href="" >
-                        <img src='${p.imagen}' width="345" height="500" alt=""/>             
+                        items.push(` <div class="col-12 col-md-4 col-lg-3 forma" data-id='${p.id}'>
+                        <a href="#" >
+                        <img src='${p.imagen}' class="img-fluid"/>             
                         <p>${p.nombre}
                         <br>
                         Director: ${p.director}
@@ -93,7 +95,7 @@ $(function() {
                         <small>${p.clasificacion}</small>
                         </p>
                         </a>                               
-                        </li>`);
+                        </div>`);
                     });
                     $(items.join()).appendTo('#lResults');
                     $("#lResults").slideDown(600);
@@ -118,9 +120,9 @@ $(function() {
                 let items = [];        
                 if (data.length > 0) {
                     $.each(data, function (index,p) {              
-                        items.push(`<li data-id='${p.id}'>
+                        items.push(` <div class="col-12 col-md-4 col-lg-3 forma" data-id='${p.id}'>
                         <a href="#" >
-                        <img src='${p.imagen}' width="345" height="500" alt=""/>             
+                        <img src='${p.imagen}'  class="img-fluid"/>             
                         <p>${p.nombre}
                         <br>
                         Director: ${p.director}
@@ -128,7 +130,7 @@ $(function() {
                         <small>${p.clasificacion}</small>
                         </p>
                         </a>                               
-                        </li>`);
+                        </div>`);
                     });
                     $(items.join()).appendTo('#lResults');
                     $("#lResults").slideDown(600);
@@ -141,8 +143,17 @@ $(function() {
         }        
     });
 
+// document.addEventListener('click', event =>
+// {
+//     $('#lResults li').on('click',function () {
+//         let id=$(this).attr('data-id');
+//         console.log('ID:', id);
+//         parent.location.href="players.html?"+id;
+//     });
+// });
+
     $(document).ready(function() {
-        $('#lResults li').on('click',function () {
+        $('#lResults').on('click','div',function () {
             let id=$(this).attr('data-id');
             console.log('ID:', id);
             parent.location.href="players.html?"+id;

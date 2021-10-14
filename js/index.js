@@ -7,15 +7,15 @@ $(function() {
         if (data.length > 0) {
             $.each(data, function (index,p) {              
                 items.push(`
-                <li data-id='${p.id}'>       
+                <div class="col-12 col-md-4 col-lg-3 forma" data-id='${p.id}'>      
                 <a href="#">        
-                <img id="imagenli" src='${p.imagen}' width="345" height="500"/>
+                <img id="imagenli" src='${p.imagen}' class="img-fluid"/>
                 </a>
                 <p>${p.nombre} <br>
                 Director: ${p.director} <br>
                 <small>${p.clasificacion}</small>
                 </p>  
-                </li>`);
+                </div>`);
             });
             $(items.join()).appendTo('#lResults');
             $("#lResults").slideDown(600);
@@ -41,9 +41,10 @@ $('form').on('submit', function (event) {
 
         if (data.length > 0) {
             $.each(data, function (index,p) {              
-                items.push(`<li data-id='${p.id}'>
+                items.push(`
+                <div class="col-12 col-md-4 col-lg-3 forma" data-id='${p.id}'>
                 <a href="#">
-                <img id="imagenli" src='${p.imagen}' width="345" height="500" alt="" class="img-fluid"/>             
+                <img id="imagenli" src='${p.imagen}' class="img-fluid"/>             
                 <p>${p.nombre}
                 <br>
                 Director: ${p.director}
@@ -51,7 +52,7 @@ $('form').on('submit', function (event) {
                 <small>${p.clasificacion}</small>
                 </p>
                 </a>                               
-                </li>`);
+                </div>`);
             });
             $(items.join()).appendTo('#lResults');
             $("#lResults").slideDown(600);
@@ -71,8 +72,9 @@ $('form').on('submit', function (event) {
    }
 
   });
+
 $(document).ready(function() {
-    $('#lResults li').on('click',function () {
+    $('#lResults').on('click','div',function () {
         let id=$(this).attr('data-id');
         console.log('ID:', id);
         parent.location.href="players.html?"+id;
