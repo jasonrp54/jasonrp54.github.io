@@ -66,7 +66,7 @@ $('form').on('submit', function (event) {
         }
         else
         {
-            $('<p>¡No se encontraron datos!</p>').appendTo('#lResults');
+            swal ( "Info" ,  "Digite el nombre de la pelicula!" ,  "info" ); 
         }
             
 
