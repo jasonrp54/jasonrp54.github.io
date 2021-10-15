@@ -66,9 +66,9 @@ $('form').on('submit', function (event) {
         }
         else
         {
-            swal ( "Info" ,  "Digite el nombre de la pelicula!" ,  "info" ); 
-        }
-            
+            swal ( "Info" ,  "No se encontro pelicula con el nombre a buscar!" ,  "info" ); 
+            console.log('Error');
+        }           
 
     });
    }
