@@ -1,69 +1,83 @@
 body{
-    margin: 10px 10px ;
-    background: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2em 10% 2em 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-a{
- color: white;
- font-family: cursive; 
-}
-
-h3,h4,h6{
-    color: white;
-}
-
-p{
-    color: white;
-    font-family: cursive;
-}
-small{
-    color: white;
-    font-family: cursive;
-}
-
-#banner{
-    padding-bottom : 1em;    
-}
-
-iframe{
-    width: 900px; height: 506px; left: 0px; top: 0px;
-}
-
-.forma {
-  padding: 10px 20px;
-  margin: 20px;
- 
-}
-
-/* #lResults, li{
-    list-style: none;
+.topnav {
+    overflow: hidden;
+    background-color:white;
+    border-top: 1px solid bisque;
     padding: 5px;
-} */
-
-
-
-#lResults > div:hover {
-    /* background: rgba(9,9,121,1) ; */
-    background: rgb(0,212,255);
-    background: linear-gradient(0deg, rgba(0,212,255,1) 6%, rgba(9,9,121,1) 92%);
-}
-
-#lResults div > a {
-    text-decoration: none;
-}
-
-
-footer {
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    font-weight: bold;
     text-align: center;
-    padding: 3px;   
+    padding: 14px 16px;
+    text-decoration: solid;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: cornflowerblue;
     color: white;
-    background: rgb(0,212,255);
-    background: linear-gradient(0deg, rgba(0,212,255,1) 6%, rgba(9,9,121,1) 92%);
-    border-radius: 30px 5px 30px 5px;
+  }
+  
+  .topnav a.active {
+    background-color: cornflowerblue;
+    color: white;
   }
 
-  #imagenli{
-    display:block;
-    margin:auto;   
+  #logoempresa{
+    padding: 5px;
+    
   }
+  #whassap
+  {
+    width: 20px;
+    height: 20px;
+  }
+   
+  #demo{
+      background: gray;
+      margin: center;
+  }
+footer {
+    border-top: 1px solid gray;    
+    background: rgb(0,212,255);
+    background: linear-gradient(0deg, rgba(0,212,255,1) 6%, rgba(9,9,121,1) 92%);
+    height: 200px; 
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+  }
+
+ .carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+
+#contacto a {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+h3{
+  font-size: 0.995em;;
+}
+.reservado{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
